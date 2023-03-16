@@ -11,27 +11,39 @@
     justify-content:center;
     flex-wrap: wrap;
 }
-.bottom-left{
-    margin-top:30px;
-    display:flex;
-    flex-wrap: wrap;
-    max-width: 200px;
-}
+
 .bottom-right{
-    margin-top:30px;
-    display:flex;
-    height:30px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+}
+.contact-title{
+    margin-top: 20px;
+    display: block;
+}
+.contact-main-title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    font-size: 50px;
+    display: inline-block;
 }
 .bottom-contact{
+    display: block;
+    margin: 20px;
     align-self: center;
-    margin-right: 40px;
     font-weight: 200;
-    font-size: 1vw;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 17px;
+    position: relative;
 }
 .bottom-img{
-    margin-right: 15px;
     width:auto;
-    height:20px;
+    height:60px;
     align-self: center;
 }
 .good-to-know{

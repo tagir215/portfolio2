@@ -2,32 +2,34 @@ import React from 'react';
 import en from '.././locales/en.json';
 import fi from '.././locales/fi.json'
 import './Toolbar.css';
+import {useState} from 'react';
 
 export default function(){
+    const [activeTab, setActiveTab] = useState(0);
 
-    
-
-    function handleScroll(){
-    const toolbar = document.querySelector('.toolbar-background');
-    toolbar.classList.add('hidden');
+    const selectTab = function(tab){
+        setActiveTab(tab);
+        document.getElementsByClassName("active")[0].classList.remove("active");
+        document.getElementsByClassName("page")[tab].classList.add("active");
     }
     
     return(
         <>
+        <div className='place-holder' />
         <div className='toolbar-background'>
-        <div className="main-bar">
+        <div className="toolbar-bar">
 
 
-                <div className="main-right">
-                    <span className="main-title">{fi.title}</span>
-                    <img className="main-logo" src="logo192.png" alt=""></img>
+                <div className="toolbar-right">
+                    <span className="toolbar-title">{fi.title}</span>
+                    <img className="toolbar-logo" src={process.env.PUBLIC_URL + '/logo512.png'} alt=""></img>
                 </div>
 
-                <div className="main-right">
-                    <a className="main-tab">{fi.tab0}</a>
-                    <a className="main-tab">{fi.tab1}</a>
-                    <a className="main-tab">{fi.tab2}</a>
-                    <a className="main-tab">{fi.tab3}</a>
+                <div className="toolbar-right">
+                    <a onClick={() => selectTab(0)} className={`toolbar-tab ${activeTab === 0 ? 'active-tab' : ''}`}>{fi.tab0}</a>
+                    <a onClick={() => selectTab(1)} className={`toolbar-tab ${activeTab === 1 ? 'active-tab' : ''}`}>{fi.tab1}</a>
+                    <a onClick={() => selectTab(2)} className={`toolbar-tab ${activeTab === 2 ? 'active-tab' : ''}`}>{fi.tab2}</a>
+                    <a onClick={() => selectTab(3)} className={`toolbar-tab ${activeTab === 3 ? 'active-tab' : ''}`}>{fi.tab3}</a>
                 </div>
                 
             </div>

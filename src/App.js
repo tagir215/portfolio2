@@ -17,51 +17,59 @@ function App() {
   return (
     <>
 
+      <ToolBar />
 
-      
-       <FakeStack key={0}/>
-
-      <div className="topic">
-        <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
+      <div class="page active">
+        <FakeStack key={0}/>
+        <div className="topic">
+          <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
+        </div>
       </div>
 
-      <Skills className="skills"/>
-
-      <div className="topic">
-        <TextBlock title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
-        <PhoneImage 
-                    path0={iFolder + '/topic1/starchat6.jpg'} 
-                    path1={iFolder + '/topic1/starchat3.jpg'}
-                    
-                    />
+      <div class="page">
+        <Skills className="skills"/>
       </div>
 
-      <div className="topic">
-        <PhoneImage 
-              path0={iFolder + '/topic2/picmetr1.jpg'}
-              path1={iFolder + '/topic2/picmetr5.jpg'}
-              />
-        <TextBlock title={fi.topic2Title} text={fi.topic2Text} link={"https://github.com/tagir215/VisualMetronome"}/>
-      </div>
+      <div class="page">
 
-      <div className="topic">
-        <TextBlock title={fi.topic3Title} text={fi.topic3Text} link={"https://github.com/tagir215/YourMindMap"}/>
-        <PhoneImage 
-                path0={iFolder + '/topic3/mindmap1.jpg'}
-                path1={iFolder + '/topic3/mindmap0.jpg'}
+        <div className="topic">
+          <TextBlock title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
+          <PhoneImage 
+                      path0={iFolder + '/topic1/starchat6.jpg'} 
+                      path1={iFolder + '/topic1/starchat3.jpg'}
+                      
+                      />
+        </div>
+
+        <div className="topic">
+          <PhoneImage 
+                path0={iFolder + '/topic2/picmetr1.jpg'}
+                path1={iFolder + '/topic2/picmetr5.jpg'}
                 />
+          <TextBlock title={fi.topic2Title} text={fi.topic2Text} link={"https://github.com/tagir215/VisualMetronome"}/>
+        </div>
+
+        <div className="topic">
+          <TextBlock title={fi.topic3Title} text={fi.topic3Text} link={"https://github.com/tagir215/YourMindMap"}/>
+          <PhoneImage 
+                  path0={iFolder + '/topic3/mindmap1.jpg'}
+                  path1={iFolder + '/topic3/mindmap0.jpg'}
+                  />
+        </div>
+
+        <div className="topic">
+          <PhoneImage 
+            path0={iFolder + '/topic4/newgolf1.png'}
+            path1={iFolder + '/topic4/newgolf2.png'}
+            />
+          <TextBlock title={fi.topic4Title} text={fi.topic4Text} link={"https://github.com/tagir215/GPSGolf"}/>
+        </div>
+
       </div>
 
-      <div className="topic">
-        <PhoneImage 
-          path0={iFolder + '/topic4/newgolf1.png'}
-          path1={iFolder + '/topic4/newgolf2.png'}
-          />
-        <TextBlock title={fi.topic4Title} text={fi.topic4Text} link={"https://github.com/tagir215/GPSGolf"}/>
+      <div class="page">
+        <Bottombar />
       </div>
-
-
-      <Bottombar />
     </>
   )
 }

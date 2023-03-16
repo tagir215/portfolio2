@@ -6,7 +6,7 @@
     "tab3":"Yhteystiedot",
    
 
-    "aboutTitle":"Hei, tässä on portfolioni",
+    "aboutTitle":"Tagir Portfolio 2023",
     "aboutText":"Olen opetellut aika yleisesti erilaisia teknologioita, mutta erikoistunut suurimmaksi osaksi android ja java kehitykseen",
 
     "topic1Title":"Oletko kyllästynyt tavallisiin viestintä sovelluksiin?",
@@ -25,9 +25,12 @@
     "goodToKow":"Vastausaika todennäköisesti lyhyehkö",
     "language":"Suomi",
     "learn more":"Lue lisää",
-    "contact":"Contact:",
+    "contact":"Ota yhteyttä",
     "email":"tagir.tsarkov@gmail.com",
     "phone":"+358401865843",
     "location":"Silfverhjelmintie 8, Mustio",
+    "email-name":"SÄHKÖPOSTI",
+    "location-name":"SIJAINTI",
+    "phone-name":"PUHELIN",
     "skills":"Taidot"
 }

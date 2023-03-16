@@ -6,8 +6,8 @@ import './Skills.css'
 export default function(){
     const path = process.env.PUBLIC_URL;
     return(    
+      
         <div className="skills-div">
-            <h1 className="topic-title">{fi.skills}</h1>
             <div className="skills">
                 <Skill img={path + '/skills/logo-android.png'} title="Android" />
                 <Skill img={path + '/skills/logo-css.png'} title="CSS" />
@@ -24,5 +24,6 @@ export default function(){
             </div>
 
         </div>
+    
     )
 }
