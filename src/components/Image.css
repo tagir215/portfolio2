@@ -1,0 +1,6 @@
+.topic-image{
+    width: auto;
+    max-width: 50%;
+    min-width: 400px;
+    filter:hue-rotate(120deg);
+}

@@ -1,0 +1,33 @@
+{
+    "title":"Tagir",
+    "tab0":"Esittely",
+    "tab1":"Taidot",
+    "tab2":"Työt",
+    "tab3":"Yhteystiedot",
+   
+
+    "aboutTitle":"Hei, tässä on portfolioni",
+    "aboutText":"Olen opetellut aika yleisesti erilaisia teknologioita, mutta erikoistunut suurimmaksi osaksi android ja java kehitykseen",
+
+    "topic1Title":"Oletko kyllästynyt tavallisiin viestintä sovelluksiin?",
+    "topic1Text":"Chat sovellus jossa kaikki kirjoittaminen tapahtuu Star Wars alkuteksteistä inspiroituun tyyliin!",
+
+    "topic2Title":"Paranna rytmitajuasi!",
+    "topic2Text":"Jos sinulla on huono rytmitaju, niin älä huoli. Tämä sovellus auttaa sinua!",
+
+    "topic3Title":"Mitä on mielessäsi?",
+    "topic3Text":"Luo ajatuskarttoja nopeasti ja vaivattomasti kännykälläsi. Tästä sovelluksesta löytyy niin paljon työkaluja, että en itsekään aina muista mikä kaikki on mahdollista",
+
+    "topic4Title":"Tässä ole hyvä. Taas yksi syy mennä ulos!",
+    "topic4Text":"Oletko kyllästynyt istumaan kotona? Haluatko mennä pelaamaan golfia, mutta et toisaalta jaksakaan... jostain syystä. Ei hätää voit pelata golfia ulkona nyt myös kännykälläsi!",
+
+    "privacyPolicy":"Privacy Policy",
+    "goodToKow":"Vastausaika todennäköisesti lyhyehkö",
+    "language":"Suomi",
+    "learn more":"Lue lisää",
+    "contact":"Contact:",
+    "email":"tagir.tsarkov@gmail.com",
+    "phone":"+358401865843",
+    "location":"Silfverhjelmintie 8, Mustio",
+    "skills":"Taidot"
+}

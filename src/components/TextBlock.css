@@ -1,0 +1,36 @@
+.topic-content{
+    max-width:40%;
+    min-width: 300px;
+    margin-bottom: 50px;
+}
+.topic-title{
+    font-size:53px;
+}
+.topic-text{
+    font-size:22px;
+}
+.link{
+    background:rgb(1, 37, 4);
+    border-radius:40px;
+    margin-top:40px;
+    padding: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size:15px;
+    color:white;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.light-theme{
+    color:white;
+    height:500px;
+    max-width: 45%;
+}
+
+
+@media all and (max-width:700px){
+    .topic-content{
+        max-width: 100%;
+    }   
+}

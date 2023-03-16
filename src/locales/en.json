@@ -1,0 +1,33 @@
+{
+    "title":"Tagir",
+    "tab0":"About me",
+    "tab1":"Skills",
+    "tab2":"Work",
+    "tab3":"Contact",
+   
+
+    "aboutTitle":"Hi, here is my portfolio",
+    "aboutText":"I've been generalizing with lot of technologies, but I've been mostly specializing on android / java development",
+
+    "topic1Title":"Bored of whatsapp?",
+    "topic1Text":"A chat app where all the text is written into a Star Wars like text crawl!",
+
+    "topic2Title":"Improve your rhythm!",
+    "topic2Text":"If you have poor sense of rhythm, don't fret. This app will help you.",
+
+    "topic3Title":"What's on your mind?",
+    "topic3Text":"Couldn't find a usable mind map app. Well here you go. An easy to use and easy to master mind map editor.",
+
+    "topic4Title":"Here you go. An excuse to go outside!",
+    "topic4Text":"Are you tired of sitting home, but there's nothing to do outside. You could of course go golfing but here's something even better",
+
+    "privacyPolicy":"Privacy Policy",
+    "goodToKow":"Response time really short probably",
+    "language":"english",
+    "learn more":"Learn more",
+    "contact":"Contact:",
+    "email":"tagir.tsarkov@gmail.com",
+    "phone":"+358401865843",
+    "location":"Silfverhjelmintie 8, Mustio",
+    "skills":"Skills"
+}
