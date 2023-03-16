@@ -110,8 +110,10 @@ export default function(){
 
 
     return(
+    
         <div className="stack-container">
-
+            <div className="fade-effect-top"></div>
+            <div className="fade-effect-bottom"></div>
            {stack.map((line,index) => (
                <div key={index}>
                     <span className={"stack-span "}>{line.prefix}</span>

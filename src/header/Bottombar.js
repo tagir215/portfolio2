@@ -9,11 +9,8 @@ export default function(){
             <div className="contact-bar">
                 
                 <div className="bottom-right">
-                    <img className="bottom-img" src=".././contact/google.png" alt=""/>
                     <span className="bottom-contact">{fi.email}</span>
-                    <img className="bottom-img" src=".././contact/phone.png" alt=""/>
                     <span className="bottom-contact">{fi.phone}</span>
-                    <img className="bottom-img" src=".././contact/location.png" alt=""/>
                     <span className="bottom-contact">{fi.location}</span>
                 
                 </div>

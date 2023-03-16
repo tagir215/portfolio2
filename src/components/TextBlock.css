@@ -27,7 +27,14 @@
     height:500px;
     max-width: 45%;
 }
-
+.main-title{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 70%;
+}
 
 @media all and (max-width:700px){
     .topic-content{

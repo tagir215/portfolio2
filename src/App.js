@@ -18,12 +18,11 @@ function App() {
     <>
 
 
-      <div className='background'>
-          <FakeStack key={0}/>
-      </div>
+      
+       <FakeStack key={0}/>
 
       <div className="topic">
-        <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="light-theme"/>
+        <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
       </div>
 
       <Skills className="skills"/>
