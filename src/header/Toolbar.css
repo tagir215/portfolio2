@@ -1,5 +1,5 @@
 .toolbar-background{
-    height:55px;
+    height:70px;
     z-index: 100;
     top:0;
     left:0;
@@ -46,8 +46,8 @@ a:hover{
     color: rgb(17, 6, 70);
     margin-top:auto;
     margin-bottom:auto; 
-    margin-left:30px;
-    font-size:15px;
+    margin-left:35px;
+    font-size:16px;
     font-weight: 600;
 }
 .place-holder{

@@ -1,0 +1,32 @@
+.moving-title{
+    position: absolute;
+    font-size: 400px;
+    white-space: nowrap;
+    font-weight: bold;
+    color:rgb(193, 221, 255);
+    transition: 1s;
+    position: absolute;
+    top:250px;
+}
+@keyframes moveLeft {
+    from {
+        left:2800px;
+    }
+    to {
+        left:-2800px;
+    }
+  }
+
+.animation1{
+    animation: moveLeft 30s linear infinite;
+    animation-delay: -15s;
+}
+.animation2{
+    animation: moveLeft 30s linear infinite;
+    animation-delay: 0;
+}
+
+.moving-titles-container{
+    overflow:hidden;
+    
+}

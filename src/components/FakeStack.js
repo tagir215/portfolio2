@@ -112,16 +112,15 @@ export default function(){
     return(
     
         <div className="stack-container">
-            <div className="fade-effect-top"></div>
-            <div className="fade-effect-bottom"></div>
+            
            {stack.map((line,index) => (
-               <div key={index}>
+               <div key={"stack-line"+index}>
                     <span className={"stack-span "}>{line.prefix}</span>
                     <span className={"stack-value "+line.color}>{line.value}</span>
                     <span className={"stack-span "}>{line.suffix}</span>
                 </div>
-            ))
-            }
+                )
+            )}
 
         </div>
     )

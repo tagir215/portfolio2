@@ -1,6 +1,6 @@
 .bottom-bar{
     border-top:1px solid rgb(186, 186, 186);
-    width:90%;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
     padding-bottom: 30px;
@@ -27,7 +27,6 @@
 .contact-main-title{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
     font-size: 50px;
     display: inline-block;
 }

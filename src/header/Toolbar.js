@@ -11,6 +11,7 @@ export default function(){
         setActiveTab(tab);
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementsByClassName("page")[tab].classList.add("active");
+        window.scrollTo(0,0);
     }
     
     return(
@@ -28,8 +29,6 @@ export default function(){
                 <div className="toolbar-right">
                     <a onClick={() => selectTab(0)} className={`toolbar-tab ${activeTab === 0 ? 'active-tab' : ''}`}>{fi.tab0}</a>
                     <a onClick={() => selectTab(1)} className={`toolbar-tab ${activeTab === 1 ? 'active-tab' : ''}`}>{fi.tab1}</a>
-                    <a onClick={() => selectTab(2)} className={`toolbar-tab ${activeTab === 2 ? 'active-tab' : ''}`}>{fi.tab2}</a>
-                    <a onClick={() => selectTab(3)} className={`toolbar-tab ${activeTab === 3 ? 'active-tab' : ''}`}>{fi.tab3}</a>
                 </div>
                 
             </div>

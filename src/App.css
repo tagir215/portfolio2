@@ -6,7 +6,9 @@ body{
     height:100%;
     caret-color: transparent;
 }
-
+html{
+  overflow-x: hidden;
+}
 .topic{
     width:90%;
     margin-left:auto;
@@ -16,18 +18,20 @@ body{
     margin-top:50px;
     margin-bottom:200px;
 }
-.background{
-    position:fixed;
-    top:0;
-    left:0;
-    width: 100vw;
-    height:100vh;
-    z-index:-2;
-    background: black;
+.purple-background{
+  position:absolute;
+  left:0;
+  top:900px;
+  width:100%;
+  z-index: -1;
+  height:500px;
+  background: purple;
 }
+
 .page{
   display: none;
 }
+
 
 .active{
   display: block;

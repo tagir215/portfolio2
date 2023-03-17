@@ -1,8 +1,8 @@
 import React from "react";
 import './Image.css';
 
-export default function({path}){
+export default function({path, top}){
     return(
-        <img className="topic-image" src={path} alt=""/>
+        <img className="image" src={path} alt="" style={{top: `${top}px`}}/>
     )
 }

@@ -10,6 +10,7 @@ import PhoneImage from './components/PhoneImage';
 import Skills from './header/Skills';
 import FakeStack from './components/FakeStack';
 import PhonesInline from './components/PhonesInline';
+import MovingTitle from './components/MovingTitle';
 
 function App() {
   const iFolder = process.env.PUBLIC_URL;
@@ -18,17 +19,16 @@ function App() {
     <>
 
       <ToolBar />
-
+      
       <div class="page active">
-        <FakeStack key={0}/>
-        <div className="topic">
+          <div className='purple-background'></div>
+          <Image path={iFolder +'/puut.png'} top="650"/>
           <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
-        </div>
+          <TextBlock title={fi.aboutTitle} text={fi.aboutTitle} theme="about-me"/>
+          <Skills className="skills"/>
       </div>
 
-      <div class="page">
-        <Skills className="skills"/>
-      </div>
+      
 
       <div class="page">
 
@@ -37,7 +37,6 @@ function App() {
           <PhoneImage 
                       path0={iFolder + '/topic1/starchat6.jpg'} 
                       path1={iFolder + '/topic1/starchat3.jpg'}
-                      
                       />
         </div>
 
@@ -67,7 +66,7 @@ function App() {
 
       </div>
 
-      <div class="page">
+      <div>
         <Bottombar />
       </div>
     </>
