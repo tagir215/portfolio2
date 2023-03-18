@@ -13,7 +13,7 @@ export default function(){
     function handleAnimationEnd() {setVisible(isVisible = !isVisible);}
     
     return (
-        <>
+        <div className="changing-things">
         <div className={`changing-div ${isVisible ? '' : 'hidden'}`}>
             <div className="changing-screen" onAnimationIteration={handleAnimationEnd}>
                 <div className="phone-image-container">
@@ -43,7 +43,10 @@ export default function(){
             
 
         </div>
-        </>
+
+       
+
+        </div>
     )
 }
 

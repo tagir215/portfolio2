@@ -1,3 +1,9 @@
+.changing-things{
+    position:relative;
+    background: rgb(230, 230, 230);
+    width: 600px;
+    height: 400px;
+}
 .changing-div{
     width: 600px;
     height: 400px;

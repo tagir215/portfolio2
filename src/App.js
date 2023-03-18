@@ -22,7 +22,7 @@ function App() {
       <div class="page active">
           <div className='purple-background'></div>
           <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
-          <ChangingThings />
+          <Image path={iFolder+'/rocks2.png'} width="1000px" top="560px"/>
           <TextBlock title={fi.actualAboutTitle} text={fi.actualAboutText} theme="about-me"/>
           <Skills className="skills"/>
       </div>
@@ -30,10 +30,15 @@ function App() {
       
 
       <div class="page animation1">
+        <div className='content'>
+          <TextBlock theme="topic" title={fi.works} text={fi['work-info']}/>
+          <ChangingThings/>
+
+        </div>
 
         <div className="content">
           <TextBlock theme="topic" title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
-          <div className="phone-image-container">
+          <div className="phone-image-container ">
             <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat6.jpg'} position="position1"/>
             <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat3.jpg'} position="position2"/>
           </div>
@@ -41,7 +46,7 @@ function App() {
         </div>
 
         <div className="content">
-           <div className="phone-image-container">
+           <div className="phone-image-container ">
             <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic2/picmetr1.jpg'} position="position1"/>
             <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic2/picmetr5.jpg'} position="position2"/>
           </div>
@@ -50,7 +55,7 @@ function App() {
 
         <div className="content">
           <TextBlock theme="topic" title={fi.topic3Title} text={fi.topic3Text} link={"https://github.com/tagir215/YourMindMap"}/>
-          <div className="phone-image-container">
+          <div className="phone-image-container ">
             <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap1.jpg'} position="position1"/>
             <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap0.jpg'} position="position2"/>
           </div>
@@ -58,7 +63,7 @@ function App() {
         </div>
 
         <div className="content">
-        <div className="phone-image-container">
+        <div className="phone-image-container ">
             <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic4/newgolf1.png'} position="position1"/>
             <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic4/newgolf2.png'} position="position2"/>
           </div>

@@ -1,15 +1,17 @@
 .stack-container{
-    height:100%;
-    width: 90%;
+    height:290px;
+    width: 130px;
     border-top: 1px solid grey;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
+    font-size: 4px;
+    left: 53%;
+    top:30px;
+    border-radius: 20px;
+    transform: translateX(-50%);
     font-weight: 200;
-    position:relative;
+    position:absolute;
     opacity: 1;
-    z-index: -1;
+    background: black;
 }
 .fade-effect-top{
     top:0;
@@ -31,7 +33,7 @@
 }
 
 .stack-span{
-    color:#073042;
+    color:#ffffff;
 
 }
 .stack-value{
