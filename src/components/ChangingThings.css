@@ -25,7 +25,7 @@
 
 @keyframes change{
     0%{
-        transform: translateX(150%);
+        transform: translateX(200%);
         animation-timing-function:cubic-bezier(0.2, 0.7, 0.3, 1);
     }
     30%{
@@ -36,7 +36,7 @@
         animation-timing-function:cubic-bezier(0, 0, 1, 0.0);
     }
     100%{
-        transform: translateX(-150%);
+        transform: translateX(-200%);
     }
 }
 

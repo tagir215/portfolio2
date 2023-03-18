@@ -5,8 +5,10 @@
     "tab2":"Yhteystiedot",
    
 
-    "aboutTitle":"Tagir Portfolio 2023",
+    "aboutTitle":"Portfolio 2023",
     "aboutText":"Olen opetellut aika yleisesti erilaisia teknologioita, mutta erikoistunut suurimmaksi osaksi android ja java kehitykseen",
+    "actualAboutText":"Hei, haen tällä hetkellä työkokeilu paikkaa. Olisin ainakin motivoitunut työntekijä ja koodaisin todennäköisesti myös vapaa ajalla. Heikkouteni on toistaiseksi ehkä standardien noudattaminen, koska teen asiat niin omalla tavalla, mutta aion korjata tämänkin asian jo seuraavassa projektissani.  ",
+    "actualAboutTitle":"Tagir Tsarkov",
 
     "topic1Title":"Oletko kyllästynyt tavallisiin viestintä sovelluksiin?",
     "topic1Text":"Chat sovellus jossa kaikki kirjoittaminen tapahtuu Star Wars alkuteksteistä inspiroituun tyyliin!",

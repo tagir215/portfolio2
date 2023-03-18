@@ -8,6 +8,7 @@
 .topic-text{
     font-size:22px;
 }
+
 .link{
     background:rgb(1, 37, 4);
     border-radius:40px;
@@ -30,14 +31,23 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 70%;
-    margin-top: 0px;
+    margin-top: 120px;
+}
+.main-title-title{
+    font-size:70px;
+}
+.main-title-text{
+    font-size:30px;
 }
 .about-me{
     margin-left: auto;
     margin-right: auto;
     color:white;
-    margin-top: 700px;
+    max-width: 60%;
+    margin-top: 550px;
     text-align: center;
+}.about-me-title{
+    font-size: 50px;
 }
 
 @media all and (max-width:700px){
