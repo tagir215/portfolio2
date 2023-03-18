@@ -46,5 +46,11 @@
 .position2{
     transform: translate(-16%,12%) ;
 }
+.position3{
+    transform: translate(10%,10%);
+}
+.position4{
+    transform: translate(-10%,0%);
+}
 
 
