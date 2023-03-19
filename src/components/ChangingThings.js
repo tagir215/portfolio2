@@ -31,12 +31,12 @@ export default function(){
             <>
             <div className="changing-screen delay">
                 <div className="phone-image-container">
-                    <Image path={publicURL +'/laptop-back.png'} width={"400px"} top={"20px"} left="55%"/>
+                    <Image path={publicURL +'/laptop-back.png'} width={"400px"} top={"20px"} left="55%" z="0px"/>
                 </div>
             </div>
             <div className="changing-screen">
                 <div className="phone-image-container">
-                    <Image path={publicURL +'/laptop-background.png'} width={"400px"} top={"0px"} left="45%"/>
+                    <Image path={publicURL +'/laptop-background.png'} width={"400px"} top={"0px"} left="45%" z="0px"/>
                 </div>
             </div>
             </>

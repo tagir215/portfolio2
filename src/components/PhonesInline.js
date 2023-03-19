@@ -4,24 +4,15 @@ import './PhonesInline.css'
 
 
 export default function(props){
+    const phoneWidth = "200px";
+    const phoneHeight = "400px";
+    const iFolder = process.env.PUBLIC_URL;
     return(
         <div className="phonesinline">
-            <div className="phone-container2 pos1">
-                <img className="phone-background2" src=".././phone20.9.png"/>
-                <img className="inner-img2" src={props.path0}/>
-            </div>
-            <div className="phone-container2 pos2">
-                <img className="phone-background2" src=".././phone20.9.png"/>
-                <img className="inner-img2" src={props.path1}/>
-            </div>
-            <div className="phone-container2 pos3">
-                <img className="phone-background2" src=".././phone20.9.png"/>
-                <img className="inner-img2" src={props.path2}/>
-            </div>
-            <div className="phone-container2 pos4">
-                <img className="phone-background2" src=".././phone20.9.png"/>
-                <img className="inner-img2" src={props.path3}/>
-            </div>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat6.jpg'}/>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat8.jpg'}/>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat2.jpg'}/>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat3.jpg'}/>
             
         </div>
     )

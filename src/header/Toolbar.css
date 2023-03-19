@@ -2,14 +2,19 @@
     height:70px;
     z-index: 100;
     top:0;
-    left:0;
     width: 100%;
     position: fixed;
-    background: rgb(255, 255, 255); 
-    transition: transform 0.3s ease-out;
+    
 }
-.toolbar-background.hidden{
+.add-background{
+    background: white;
+    z-index: 100;
+}
+.move-up{
     transform: translateY(-100%);
+}
+.move-down{
+    transform: translateY(100%);
 }
 a:hover{
     cursor:pointer;
@@ -25,6 +30,7 @@ a:hover{
     height: 100%;
     align-items: center;
     position: relative;
+    transition: 0.3s ease-out;
 }
 .toolbar-title{
     font-size:18px;

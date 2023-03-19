@@ -1,18 +1,23 @@
-import React from 'react';
 import en from '.././locales/en.json';
 import fi from '.././locales/fi.json'
 import './Toolbar.css';
-import {useState} from 'react';
+import { useState } from 'react';
+
 
 export default function(){
-    const [activeTab, setActiveTab] = useState(0);
+    const [[activeTab, oldScrollPos], setState] = useState([0,0,1]);
 
     const selectTab = function(tab){
-        setActiveTab(tab);
+        setState([tab,oldScrollPos]);
         document.getElementsByClassName("active")[0].classList.remove("active");
         document.getElementsByClassName("page")[tab].classList.add("active");
-        window.scrollTo(0,0);
+        document.getElementsByClassName('page')[0].scrollTo(0,0);
+        
     }
+    
+   
+
+    
     
     return(
         <>

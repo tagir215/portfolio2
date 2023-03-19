@@ -9,6 +9,7 @@ import Bottombar from './header/Bottombar';
 import PhoneImage from './components/PhoneImage';
 import Skills from './header/Skills';
 import ChangingThings from './components/ChangingThings';
+import PhonesInline from './components/PhonesInline';
 
 function App() {
   const iFolder = process.env.PUBLIC_URL;
@@ -16,65 +17,68 @@ function App() {
   const phoneHeight = "500px"
   return (
     <>
-
-      <ToolBar />
+    <div className='wrapper'>
+    <ToolBar />
+      
+      <Image className='rocks' path={iFolder+'/kiviä2.png'} width="2300px" top="600px" z="-5px"/>
+      <Image className='rocks' path={iFolder+'/kiviä1.png'} width="1000px" top="480px" z="0px"/>
       
       <div class="page active">
           <div className='purple-background'></div>
           <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
-          <Image path={iFolder+'/rocks2.png'} width="1000px" top="560px"/>
           <TextBlock title={fi.actualAboutTitle} text={fi.actualAboutText} theme="about-me"/>
           <Skills className="skills"/>
       </div>
 
       
 
-      <div class="page animation1">
-        <div className='content'>
-          <TextBlock theme="topic" title={fi.works} text={fi['work-info']}/>
-          <ChangingThings/>
+      <div class="page animation1 ">
 
+            <div className='content'>
+              <TextBlock theme="topic" title={fi.works} text={fi['work-info']}/>
+              <ChangingThings/>
+            </div>
+
+            <div className="content">
+              <TextBlock theme="topic" title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
+              <div className="phone-image-container ">
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat6.jpg'} position="position1"/>
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat8.jpg'} position="position2"/>
+              </div>
+              
+            </div>
+
+            <div className="content">
+              <div className="phone-image-container ">
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic2/picmetr1.jpg'} position="position1"/>
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic2/picmetr5.jpg'} position="position2"/>
+              </div>
+              <TextBlock theme="topic" title={fi.topic2Title} text={fi.topic2Text} link={"https://github.com/tagir215/VisualMetronome"}/>
+            </div>
+
+            <div className="content">
+              <TextBlock theme="topic" title={fi.topic3Title} text={fi.topic3Text} link={"https://github.com/tagir215/YourMindMap"}/>
+              <div className="phone-image-container ">
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap1.jpg'} position="position1"/>
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap0.jpg'} position="position2"/>
+              </div>
+              
+            </div>
+
+            <div className="content">
+            <div className="phone-image-container ">
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic4/newgolf1.png'} position="position1"/>
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic4/newgolf2.png'} position="position2"/>
+              </div>
+              <TextBlock theme="topic" title={fi.topic4Title} text={fi.topic4Text} link={"https://github.com/tagir215/GPSGolf"}/>
+            </div>
+
+            <Bottombar />
         </div>
-
-        <div className="content">
-          <TextBlock theme="topic" title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
-          <div className="phone-image-container ">
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat6.jpg'} position="position1"/>
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat3.jpg'} position="position2"/>
-          </div>
-          
-        </div>
-
-        <div className="content">
-           <div className="phone-image-container ">
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic2/picmetr1.jpg'} position="position1"/>
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic2/picmetr5.jpg'} position="position2"/>
-          </div>
-          <TextBlock theme="topic" title={fi.topic2Title} text={fi.topic2Text} link={"https://github.com/tagir215/VisualMetronome"}/>
-        </div>
-
-        <div className="content">
-          <TextBlock theme="topic" title={fi.topic3Title} text={fi.topic3Text} link={"https://github.com/tagir215/YourMindMap"}/>
-          <div className="phone-image-container ">
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap1.jpg'} position="position1"/>
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap0.jpg'} position="position2"/>
-          </div>
-          
-        </div>
-
-        <div className="content">
-        <div className="phone-image-container ">
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic4/newgolf1.png'} position="position1"/>
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic4/newgolf2.png'} position="position2"/>
-          </div>
-          <TextBlock theme="topic" title={fi.topic4Title} text={fi.topic4Text} link={"https://github.com/tagir215/GPSGolf"}/>
-        </div>
-
-        <Bottombar />
-      </div>
 
       
-    </>
+    </div>
+    </> 
   )
 }
 

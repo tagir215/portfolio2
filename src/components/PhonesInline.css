@@ -10,32 +10,7 @@
     justify-content: center;
     transform: translateY(-10%);
 }
-.phone-container2{
-    height:400px;
-    width: 200px;
-    position:relative;
-    
-}
-.phone-background2{
-  
-    position:absolute;
-    height: 100%;
-    width: auto;
-    right:50%;
-    z-index: 2;
-    top:0;
-    transform: translateX(50%);
-   
-}
 
-.inner-img2{ 
-    right:50%;
-    transform: translateX(50%);
-    position:absolute;
-    top:2.5%;
-    width: auto;
-    height: 94%;
-    border-radius: 12px;
-    z-index:1;
-}
+
+
 
