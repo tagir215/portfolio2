@@ -1,17 +1,16 @@
 .stack-container{
-    height:290px;
-    width: 130px;
-    border-top: 1px solid grey;
+    height:160px;
+    width: 260px;
     overflow: hidden;
     font-size: 4px;
-    left: 53%;
-    top:30px;
-    border-radius: 20px;
+    left: 45%;
+    top:25px;
+    background: rgb(134, 6, 91);
     transform: translateX(-50%);
     font-weight: 200;
     position:absolute;
     opacity: 1;
-    background: black;
+    z-index: -10;
 }
 .fade-effect-top{
     top:0;
@@ -33,18 +32,17 @@
 }
 
 .stack-span{
-    color:#ffffff;
+    color:rgb(251, 251, 251);
 
 }
 .stack-value{
-
 }
-.blue{
+.stack-blue{
     color:blue;
     border-bottom:1px solid blue;
 }
-.grey{
-    color:rgb(0, 0, 0);
-    border-bottom:1px solid rgb(0, 0, 0);
+.stack-grey{
+    color:rgb(30, 169, 83);
+    border-bottom:1px solid rgb(10, 165, 56);
 }
 

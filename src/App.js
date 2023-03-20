@@ -20,11 +20,12 @@ function App() {
     <div className='wrapper'>
     <ToolBar />
       
+
+      <div className='purple-background'></div>
       <Image className='rocks' path={iFolder+'/kiviä2.png'} width="2300px" top="600px" z="-5px"/>
       <Image className='rocks' path={iFolder+'/kiviä1.png'} width="1000px" top="480px" z="0px"/>
       
       <div class="page active">
-          <div className='purple-background'></div>
           <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
           <TextBlock title={fi.actualAboutTitle} text={fi.actualAboutText} theme="about-me"/>
           <Skills className="skills"/>

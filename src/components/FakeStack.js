@@ -74,9 +74,9 @@ export default function(){
         var color = "blue";
         
         if(num>1000){
-            color = "grey"
+            color = "stack-grey"
         }else{
-            color="blue"
+            color="stack-blue"
         }
 
         stack[i] = {prefix, value, suffix,color};

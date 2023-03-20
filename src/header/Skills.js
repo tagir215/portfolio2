@@ -2,13 +2,25 @@ import React from "react";
 import Skill from "../components/Skill";
 import fi from ".././locales/fi.json"
 import './Skills.css'
+import { useState,useEffect } from "react";
 
 export default function(){
     const path = process.env.PUBLIC_URL;
+    const [visible,setVisible] = useState(false)
+    useEffect(()=>{
+       const wrapper = document.getElementsByClassName('wrapper')[0]
+       const listener = wrapper.addEventListener('scroll',()=>{
+            if(wrapper.scrollTop>700){
+                setVisible(true);
+            }
+       })
+       return ()=> wrapper.removeEventListener('scroll',listener)
+    },[])
+
     return(    
         <>
         <div className="skills-div">
-            <div className="skills">
+            <div  className="skills" style={{opacity: visible ? '1' : '0'}}>
                 <Skill img={path + '/skills/logo-android.png'} title="Android" list={[,"Activities","Fragments","RecyclerView","Canvas","Layouts and Views","Animations","Testing","Permissions","Data storage","Intents"]}/>
                 <Skill img={path + '/skills/logo-css.png'} title="CSS" list={["Selectors","Box model","Transitions","Layout","Typography","Flexbox"]}/>
                 <Skill img={path + '/skills/logo-firebase.png'} title="Firebase" list={["RealtimeDatabase","FirebaseStorage","FirebaseMessaging","Firebase Test Lab"]}/>

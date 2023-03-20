@@ -2,7 +2,9 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    transition: 0.3s linear;
 }
+
 .skills-div{
     padding-top: 50px;
     width:95%;
