@@ -24,7 +24,6 @@
     width: auto;
     right:50%;
     z-index: 2;
-    top:0;
     transform: translateX(50%);
    
 }
@@ -37,9 +36,8 @@
 
 .inner-img{ 
     right:50%;
-    transform: translateX(50%);
+    transform: translate(50%,2.5%);
     position:absolute;
-    top:2.5%;
     width: auto;
     height: 94%;
     border-radius: 12px;

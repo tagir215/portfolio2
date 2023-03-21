@@ -71,6 +71,23 @@ html{
 .animation1{
   animation: appear 1s forwards;
 }
+.background-image{
+  position:absolute;
+  width: 3000px;
+  left: 50%;
+  height: auto;
+  z-index: -10;
+  transform: translate3d(-50%,200px,-5px);
+}
+.rocks{
+  width: 1000px;
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%,480px);
+  height: auto;
+  z-index: -10;
+}
+
 
 
 @keyframes appear{

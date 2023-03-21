@@ -9,11 +9,12 @@ export default function(props){
     const iFolder = process.env.PUBLIC_URL;
     return(
         <div className="phonesinline">
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat6.jpg'}/>
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat8.jpg'}/>
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat2.jpg'}/>
-            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat3.jpg'}/>
-            
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap0.jpg'}/>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap1.jpg'}/>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap2.jpg'}/>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap3.jpg'}/>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap4.jpg'}/>
+            <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic3/mindmap5.jpg'}/>
         </div>
     )
 }
