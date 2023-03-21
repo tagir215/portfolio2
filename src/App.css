@@ -83,7 +83,7 @@ html{
   width: 1000px;
   position:absolute;
   left: 50%;
-  transform: translate(-50%,480px);
+  transform: translate(-50%,440px);
   height: auto;
   z-index: -10;
 }
