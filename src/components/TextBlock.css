@@ -1,5 +1,5 @@
 .topic-content{
-    max-width:40%;
+    max-width:46%;
     min-width: 300px;
 }
 .topic-title{
@@ -10,20 +10,26 @@
 }
 
 .link{
-    background:rgb(1, 37, 4);
+    border: 1px solid var(--primary-color);
     border-radius:40px;
     margin-top:40px;
     padding: 13px;
     padding-right: 20px;
     padding-left: 20px;
     font-size:15px;
-    color:white;
+    color:var(--primary-color);
     display:inline-block;
     text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.link:hover{
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .light-theme{
-    color:white;
+    color:var(--secondary-color);
     max-width: 45%;
 }
 .main-title{
@@ -42,12 +48,13 @@
 .about-me{
     margin-left: auto;
     margin-right: auto;
-    color:white;
+    color:var(--secondary-color);
     max-width: 60%;
     margin-top: 600px;
     text-align: center;
 }.about-me-title{
     font-size: 50px;
+    color:var(--secondary-color);
 }
 
 @media all and (max-width:700px){

@@ -2,7 +2,7 @@ import React from "react";
 import './Image.css';
 import { useState, useEffect } from "react";
 
-export default function({path, top, width, left,filter,z}){
+export default function({path, top, width, left,filter,z,flip}){
     
 
     return(

@@ -21,9 +21,9 @@ function App() {
     <ToolBar />
       
 
-      <div className='purple-background'></div>
-      <Image className='rocks' path={iFolder+'/kiviä2.png'} width="2300px" top="600px" z="-5px"/>
-      <Image className='rocks' path={iFolder+'/kiviä1.png'} width="1000px" top="480px" z="0px"/>
+      
+      <Image className='rocks' path={iFolder+'/canyon.png'} width="4000px" top="320px" z="-10px"/>
+      <Image className='rocks rotate-image' path={iFolder+'/kiviä1.png'} width="1000px" top="480px" z="0px"/>
       
       <div class="page active">
           <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
@@ -31,7 +31,8 @@ function App() {
           <Skills className="skills"/>
       </div>
 
-      
+      <div className='masking-background'></div>
+      <div className='masking-background is-white'></div>
 
       <div class="page animation1 ">
 

@@ -7,7 +7,7 @@
     
 }
 .add-background{
-    background: white;
+    background: var(--secondary-color);
     z-index: 100;
 }
 .move-up{
@@ -47,10 +47,10 @@ a:hover{
     
 }
 .toolbar-tab{
-    color: purple;
+    color: var(--primary-color);
     margin-top:auto;
     margin-bottom:auto; 
-    background: white;
+    background: var(--secondary-color);
     border-radius: 40px;
     margin-left:35px;
     text-decoration: none;
@@ -58,19 +58,19 @@ a:hover{
     padding: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    border:1px solid purple;
+    border:1px solid var(--primary-color);
     font-weight: 600;
     transition: 0.3s;
 }
 .toolbar-tab:hover{
-    background: purple;
-    color:white
+    background: var(--primary-color);
+    color:var(--secondary-color);
 }
 .place-holder{
     height:40px;
     position: relative;
 }
 .active-tab{
-    color:green;
-    border-bottom:1px solid green;
+    color:var(--primary-color);
+    border-bottom:1px solid var(--primary-color);
 }
