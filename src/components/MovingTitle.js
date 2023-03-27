@@ -5,8 +5,8 @@ export default function(){
     
     return(
         <div className="moving-titles-container">
-            <span className="moving-title animation-title1" >Portfolio 2023</span>
-            <span className="moving-title animation-title2" >Portfolio 2023</span>
+            <img className="moving-title animation-title1" src={process.env.PUBLIC_URL +"/pilvi.png"} alt=""></img>
+            <img className="moving-title animation-title2" src={process.env.PUBLIC_URL +"/pilvi.png"} alt=""></img>
         </div>
     )
 }

@@ -7,6 +7,7 @@ body{
 :root{
   --primary-color:rgb(7, 67, 77);
   --secondary-color:white;
+  --darker-color:rgb(2, 22, 26);
 }
 
 
@@ -34,7 +35,7 @@ html{
   top:900px;
   width:100%;
   z-index: -1;
-  height:500px;
+  height:400px;
   background: var(--primary-color);
 }
 .is-white{
@@ -59,7 +60,7 @@ html{
   max-width: 1500px;
 }
 .wrapper{
-  perspective: 10px;
+  perspective: 20px;
   height: 100vh;
   top:0;
   position: absolute;
@@ -104,6 +105,7 @@ html{
 .active{
   display: block;
 }
+
 
 @media all and (max-width:900px){
   .content{

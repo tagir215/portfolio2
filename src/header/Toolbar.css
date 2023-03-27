@@ -41,7 +41,7 @@ a:hover{
     width:55px;
     height:55px;
     border-radius:30px;
-    background:white;
+    background:rgb(195, 195, 195);
 }
 .toolbar-right{
     display:flex;

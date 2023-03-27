@@ -24,11 +24,11 @@ export default function({img, title, list}){
     }
 
     return (
-        <div className="skill-container" ref={containerRef} onMouseEnter={handleHover}>
+        <div className="skill-container" ref={containerRef}>
         
         <div className="folder-fold"></div>
         <div className="folder-cover">
-            <span className="skill-title">{title}</span>
+                <span className="skill-title">{title}</span>
         </div>
                 
         <div className={`skill-info pos${position}`} ref={infoRef}>
