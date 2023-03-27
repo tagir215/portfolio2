@@ -51,8 +51,7 @@
     width: auto;
     height: auto;
     padding: 5px;
-    background: rgb(255, 255, 255);
-    box-shadow: 2px 2px 0px 0px black;
+    background: rgb(136, 136, 136);
     z-index: 50;
     position: absolute;
     color:transparent;
