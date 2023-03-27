@@ -3,6 +3,7 @@
     background: rgb(230, 230, 230);
     width: 600px;
     height: 400px;
+    max-width: 53%;
     overflow: hidden;
 }
 .changing-div{
