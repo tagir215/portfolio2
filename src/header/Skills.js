@@ -19,10 +19,10 @@ export default function(){
                 <Skill img={path + '/skills/logo-googleCloud.png'} title="Google Cloud" list={["Buckets","Objects","Google Cloud SDK"]}/>
                 <Skill img={path + '/skills/logo-opengl.png'} title="OpenGL" list={["VertexArrays","Buffers","OpenGL pipeline","Vertex Shaders","Fragment Shaders","Batching","Textures"]}/>
                 <Skill img={path + '/skills/logo-javascript.png'} title="JavaScript" list={["Functions","Classes","Objects","Lambdas","Destructuring","DOM","Arrays"]}/>
-                <Skill img={path + '/skills/logo-java.png'} title="Java" list={["Polymorphism","Exceptions","Interfaces","Threads","Lambdas","Enums","Access Control","Data Structures","Reflection","J2EE","Maven","Gradle","Tomcat","Jetty"]}/>
+                <Skill img={path + '/skills/logo-java.png'} title="Java" list={["Polymorphism","Exceptions","Threads","Lambdas","Access Control","Data Structures","Reflection","Maven","Gradle","Jetty"]}/>
                 <Skill img={path + '/skills/logo-kotlin.png'} title="Kotlin" list={["Data classes","Coroutines","Extension Functions"]}/>
                 <Skill img={path + '/skills/logo-react.png'} title="React" list={["Components","State","Props","JSX"]}/>
-                <Skill img={path + '/skills/logo-android.png'} title="Android" list={[,"Activities","Fragments","RecyclerView","Canvas","Layouts","Views","CustomViews","Animations","Testing","Permissions","Data storage","Intents","Retrofit","Notifications"]}/>
+                <Skill img={path + '/skills/logo-android.png'} title="Android" list={[,"Activities","Fragments","RecyclerView","Canvas","Layouts and Views","CustomViews","Animations","Testing","Permissions","Data storage","Retrofit"]}/>
                 <Skill img={path + '/skills/logo-unity.png'} title="Unity" list={["Objects","Mesh rendering","Particle Systems","Raycasting","Physics Simulation"]}/>
                 <Skill img={path + '/skills/logo-wicket.png'} title="Apache Wicket" list={["Components","Models","AjaxButton","Dynamic JavaScript"]}/>
                 <Skill img={path + '/skills/logoCsharp.png'} title="C#" list={["Methods","Classes","Async","Delegates","LINQ"]}/>
