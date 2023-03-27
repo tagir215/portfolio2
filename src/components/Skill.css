@@ -62,7 +62,11 @@
     transform: translateY(-50%);
     left:120%;
 }
-
+.pos3{
+    top:50%;
+    transform: translateY(-50%);
+    left:-120%;
+}
 
 
 

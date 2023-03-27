@@ -6,27 +6,28 @@
     color:rgb(193, 221, 255);
     transition: 1s;
     position: absolute;
-    top:250px;
+    top:-100px;
 }
 @keyframes moveLeft {
     from {
-        left:2800px;
+        transform: translateX(2800px);
     }
     to {
-        left:-2800px;
+        transform: translateX(-2800px);
     }
   }
 
-.animation1{
+.animation-title1{
     animation: moveLeft 30s linear infinite;
     animation-delay: -15s;
 }
-.animation2{
+.animation-title2{
     animation: moveLeft 30s linear infinite;
     animation-delay: 0;
 }
 
 .moving-titles-container{
     overflow:hidden;
-    
+    z-index: -100;
+    opacity: 0.3;
 }

@@ -9,6 +9,7 @@ import Bottombar from './header/Bottombar';
 import PhoneImage from './components/PhoneImage';
 import Skills from './header/Skills';
 import ChangingThings from './components/ChangingThings';
+import MovingTitle from './components/MovingTitle';
 import PhonesInline from './components/PhonesInline';
 
 function App() {
@@ -20,7 +21,6 @@ function App() {
     <div className='wrapper'>
     <ToolBar />
       
-
       
       <img className='background-image' src={iFolder+'/canyonBW.png'} />
       <img className='rocks' src={iFolder+'/kiviäBW.png'}/>

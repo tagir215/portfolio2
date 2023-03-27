@@ -15,6 +15,7 @@ export default function(){
 
                 <div className="toolbar-right">
                     <span className="toolbar-title">{fi.title}</span>
+                    <img className='toolbar-img' src={process.env.PUBLIC_URL + "/kuva3.png"}></img>
                 </div>
 
                 <div className="toolbar-right">

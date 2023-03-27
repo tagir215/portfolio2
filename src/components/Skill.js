@@ -11,12 +11,15 @@ export default function({img, title, list}){
         const rectContainer = containerRef.current.getBoundingClientRect()
         const rectInfo = infoRef.current.getBoundingClientRect()
         const infoHeight = rectInfo.bottom - rectInfo.top;
+        const infoWidth = rectInfo.right - rectInfo.left;
         if(rectContainer.top > 10+  infoHeight){
             setPosition(0);
         }else if(window.innerHeight -10 > rectContainer.bottom + infoHeight){
             setPosition(1);
-        }else{
+        }else if(window.innerWidth -100 > rectContainer.right + infoWidth){
             setPosition(2);
+        }else {
+            setPosition(3);
         }
     }
 
