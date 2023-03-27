@@ -39,11 +39,10 @@
     opacity: 1;
     max-width: 1000%;
     max-height: 1000%;
-    bottom: 100%;
     z-index: 500;
     color:black;
     transition:0.2s;
-    transform: rotateZ(10deg) translateX(10px);
+    transform: translate(-10%,-70px) rotateZ(10deg);
 }
 
 .skill-info{
@@ -56,14 +55,14 @@
     position: absolute;
     color:transparent;
     left:50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,0px);
     max-width: 80%;
     max-height: 70%;
-    transition: 0.4s;
+    transition: 0s;
 }
 
 .pos0{
-    bottom: 10%;
+    bottom:20%;
 }
 .pos1{
     top:120%;
