@@ -5,9 +5,10 @@ body{
     caret-color: transparent;
 }
 :root{
-  --primary-color:rgb(7, 67, 77);
+  --primary-color:rgb(7, 59, 82);
   --secondary-color:white;
   --darker-color:rgb(2, 22, 26);
+  --extra-color:rgb(26, 219, 177);
 }
 
 

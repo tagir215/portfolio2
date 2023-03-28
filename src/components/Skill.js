@@ -32,6 +32,8 @@ export default function({img, title, list}){
         </div>
                 
         <div className={`skill-info pos${position}`} ref={infoRef}>
+
+            <div className="skill-info-fold"></div>
             <div className="skill-image-container">
                 <img className="skill-image" src={img} alt=""/>
             </div>

@@ -1,8 +1,10 @@
 .skills{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     transition: 0.3s linear;
+    margin-left:20px;
+    margin-right: 20px;
 }
 
 .skills-div{
