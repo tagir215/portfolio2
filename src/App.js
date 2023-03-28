@@ -23,6 +23,7 @@ function App() {
       
       <img className='background-image' src={iFolder+'/canyonBW.png'} />
       <img className='rocks' src={iFolder+'/kiviäBW.png'}/>
+
       
       <div class="page active">
           <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
@@ -35,10 +36,7 @@ function App() {
 
       <div class="page animation1 ">
 
-            <div className='content'>
-              <TextBlock theme="topic" title={fi.works} text={fi['work-info']}/>
-              <ChangingThings/>
-            </div>
+            
 
             <div className="content">
               <TextBlock theme="topic" title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>

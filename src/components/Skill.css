@@ -1,7 +1,7 @@
 .skill-container{
-    width:130px;
+    width:120px;
     margin: 15px;
-    height:80px;
+    height:72px;
     background: var(--darker-color);
     align-items: center;
     position: relative;
@@ -30,7 +30,7 @@
 
 
 .skill-container:hover .folder-cover{
-    transform: skewX(-20deg) translate(7px,20px);
+    transform: skewX(-20deg) translate(7px,18px);
     height:75%;
     transform-origin: bottom left;
 }
