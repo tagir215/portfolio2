@@ -75,12 +75,12 @@ html{
 }
 .background-image{
   position:absolute;
-  width: 3100px;
+  width: 3800px;
   background:grey;
   height: auto;
   z-index: -12;
   left:50%;
-  transform: translate3d(-50%,-700px,-5px);
+  transform: translate3d(-50%,-900px,-10px);
 }
 .rocks{
   width: 2500px;
