@@ -16,6 +16,7 @@
 
 .skills-container{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 300px;
     padding-bottom:50px;
