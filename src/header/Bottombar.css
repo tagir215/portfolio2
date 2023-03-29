@@ -53,3 +53,9 @@
     display: block;
     font-size: 1vw;
 }
+
+@media all and (max-width:700px){
+    .contact-bar{
+        flex-wrap: wrap;
+    }   
+}
