@@ -47,6 +47,9 @@
 .skill-container:hover .skill-info-fold{
     opacity: 1;
 }
+.skill-container:hover .skill-image{
+    opacity:1;
+}
 
 .skill-info{
     pointer-events: none;
@@ -106,7 +109,7 @@
     position:relative;
     max-height:100%;
     max-width: 100%;
-   
+    opacity: 0;
 }
 .skill-title{
     font-size: 13px;

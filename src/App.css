@@ -75,17 +75,18 @@ html{
 }
 .background-image{
   position:absolute;
-  width: 3000px;
-  left: 50%;
+  width: 3100px;
+  background:grey;
   height: auto;
-  z-index: -10;
-  transform: translate3d(-50%,200px,-5px);
+  z-index: -12;
+  left:50%;
+  transform: translate3d(-50%,-650px,-5px);
 }
 .rocks{
-  width: 1000px;
+  width: 2500px;
   position:absolute;
   left: 50%;
-  transform: translate(-50%,440px);
+  transform: translate(-50%,-500px);
   height: auto;
   z-index: -10;
 }
