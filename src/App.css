@@ -80,13 +80,13 @@ html{
   height: auto;
   z-index: -12;
   left:50%;
-  transform: translate3d(-50%,-650px,-5px);
+  transform: translate3d(-50%,-700px,-5px);
 }
 .rocks{
   width: 2500px;
   position:absolute;
   left: 50%;
-  transform: translate(-50%,-500px);
+  transform: translate(-50%,550px);
   height: auto;
   z-index: -10;
 }
