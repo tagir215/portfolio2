@@ -28,7 +28,7 @@ function App() {
       <div class="page active">
           <TextBlock title={fi.aboutTitle} text={fi.aboutText} theme="main-title"/>
           <TextBlock title={fi.actualAboutTitle} text={fi.actualAboutText} theme="about-me"/>
-          <Skills className="skills"/>
+          <Skills className="skills"/>  
       </div>
 
       <div className='masking-background'></div>
@@ -42,7 +42,7 @@ function App() {
               <TextBlock theme="topic" title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
               <div className="phone-image-container ">
                 <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat6.jpg'} position="position1"/>
-                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat8.jpg'} position="position2"/>
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat1.jpg'} position="position2"/>
               </div>
               
             </div>
