@@ -38,15 +38,6 @@ function App() {
             
 
             <div className="content">
-              <TextBlock theme="topic" title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
-              <div className="phone-image-container ">
-                <PhoneImage width={phoneWidth} height={phoneHeight} video={iFolder + '/topic1/starchat0000.mp4'} position="position1"/>
-                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat1.jpg'} position="position2"/>
-              </div>
-              
-            </div>
-
-            <div className="content">
               <div className="phone-image-container ">
                 <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic2/picmetr1.jpg'} position="position1"/>
                 <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic2/picmetr5.jpg'} position="position2"/>
@@ -69,6 +60,15 @@ function App() {
                 <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic4/newgolf2.png'} position="position2"/>
               </div>
               <TextBlock theme="topic" title={fi.topic4Title} text={fi.topic4Text} link={"https://github.com/tagir215/GPSGolf"}/>
+            </div>
+
+            <div className="content">
+              <TextBlock theme="topic" title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
+              <div className="phone-image-container ">
+                <PhoneImage width={phoneWidth} height={phoneHeight} video={iFolder + '/topic1/starchat0000.mp4'} position="position1"/>
+                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat1.jpg'} position="position2"/>
+              </div>
+              
             </div>
 
             <Bottombar />
