@@ -35,13 +35,12 @@ function App() {
       <div className='masking-background is-white'></div>
 
       <div class="page animation1 ">
-
             
 
             <div className="content">
               <TextBlock theme="topic" title={fi.topic1Title} text={fi.topic1Text} link={"https://github.com/tagir215/Star-Chat"}/>
               <div className="phone-image-container ">
-                <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat6.jpg'} position="position1"/>
+                <PhoneImage width={phoneWidth} height={phoneHeight} video={iFolder + '/topic1/starchat0000.mp4'} position="position1"/>
                 <PhoneImage width={phoneWidth} height={phoneHeight} path={iFolder + '/topic1/starchat1.jpg'} position="position2"/>
               </div>
               
