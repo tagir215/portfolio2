@@ -68,7 +68,6 @@ function App() {
             </div>
 
             
-            <Videos/>
 
             <Bottombar /> 
         </div>
