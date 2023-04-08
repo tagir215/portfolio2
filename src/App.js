@@ -16,7 +16,6 @@ function App() {
     <>
     <div className='wrapper'>
     <ToolBar />
-      
       <img className='rocks' src={iFolder+'/cliff0.png'} alt=""/>
       <img className='background-image' src={iFolder+'/cliff1.jpg'} alt=""/>
       
