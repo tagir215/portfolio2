@@ -39,6 +39,15 @@ html{
   height:600px;
   background: var(--primary-color);
 }
+.background-end{
+  position:absolute;
+  width: 100vw;
+  height:3400px;
+  right:50%;
+  bottom:0px;
+  background: black;
+  z-index:-200;
+}
 .is-white{
   top:1400px;
   z-index: -1;
