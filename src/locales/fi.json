@@ -4,12 +4,12 @@
     "tab1":"Työt",
     "tab2":"Yhteystiedot",
     "videos-title":"HARRASTUKSET",
-"videos-text":"Olen tehnyt pelejä Dreams pelienteko alustalla. Dreamsissä logiikan implementointi on aika samankaltainen prosessi kuin nykyaikaisilla koodaus kielillä tai pelienteko frameworkeilla",
+    "videos-text":"Olen tehnyt pelejä esim. Dreams pelienteko alustalla. Dreamsissä logiikan implementointi on aika samankaltainen prosessi kuin nykyaikaisilla koodaus kielillä tai pelienteko alustoilla (ehkä liiankin lähellä koodausta kohdeyleisöön nähden). Käytän yleensä paljon aikaa yksityiskohtaisiin animaatioihin sekä kontrollien tuntumaan.",
 
     "aboutTitle":"Portfolio 2023",
     "aboutText":"Olen opetellut aika yleisesti erilaisia teknologioita, mutta erikoistunut suurimmaksi osaksi android ja java kehitykseen",
-    "actualAboutText":"Hei, haen tällä hetkellä työkokeilu paikkaa. Olen vastuullinen ja motivoitunut koodari ja minulle sopii kaikenlainen työ Java/JavaScript/C# kieliin liittyen.",
-    "actualAboutTitle":"Tagir Tsarkov",
+    "actualAboutText":"Hei, haen tällä hetkellä juniori/työkokeilu paikkaa. Olen vastuullinen ja motivoitunut koodari. Tykkään tehdä isompia projekteja jotka haastavat kirjoittamaan selkeää ja skaalautuvaa koodia. Vahvuuteni on sinnikkyyteni ja motivaationi sekä kyky tehdä isompia projekteja loppuun saakka. ",
+    "actualAboutTitle":"Tagir Tirkkonen",
     "works":"Työt",
     "work-info":"Olen tehnyt 4 isompaa sovellusta tähän asti, joista ainakin kaksi aion pian julkaista app storeen.",
 
@@ -17,24 +17,94 @@
     "skills2":"Sovelluskehykset",
     "skills3":"Tietokannat",
 
-    "topic1Title":"Oletko kyllästynyt tavallisiin viestintä sovelluksiin?",
-    "topic1Text":"Chat sovellus jossa kaikki kirjoittaminen tapahtuu Star Wars alkuteksteistä inspiroituun tyyliin!",
+    "topicPlus":"Joitakin oppimiani asioita:",
 
-    "topic2Title":"Paranna rytmitajuasi!",
-    "topic2Text":"Jos sinulla on huono rytmitaju, niin älä huoli. Tämä sovellus auttaa sinua!",
+    "topic1Title":"Star Chat",
+    "topic1Text":"Chat sovellus jossa kaikki kirjoittaminen tapahtuu Star Wars alkuteksteistä inspiroituun tyyliin",
+    "topic1List":[
+        "MVVM",
+        "REST",
+        "Notifikaatiot",
+        "Content Resolver",
+        "OpenGL (tekstin renderöinti / tekstuurit / puskurit / huippujoukot / tekstin asettelu algoritmeja, fontti datan käsittely, matriisilasku algoritmeja, GLSL, varjostinten kompilointi)",
+        "MotionEvent",
+        "FireBase (realtime database / Firestore / Firebase messaging)",
+        "lupien hallinta",
+        "Best practices",
+        "Mockito",
+        "Espresso"
+    ],
+    
 
-    "topic3Title":"Mitä on mielessäsi?",
-    "topic3Text":"Luo ajatuskarttoja nopeasti ja vaivattomasti kännykälläsi. Tästä sovelluksesta löytyy niin paljon työkaluja, että en itsekään aina muista mikä kaikki on mahdollista",
+    "topic2Title":"Visual metronome",
+    "topic2Text":"Äppi joka pyrkii tunnistamaan rytmejä musiikista",
+    "topic2List":[
+        "AudioRecord",
+        "AudioManager",
+        "Timer",
+        "Monisäikeistys",
+        "AudioTrack",
+        "OpenGL (GL SurfaceView, Renderer, viivan piirto)",
+        "Audio puskurit",
+        "Fast fourier transform, autokorrelaatio ja muita pitch detection algoritmeja"
+    ],
 
-    "topic4Title":"Tässä ole hyvä. Taas yksi syy mennä ulos!",
-    "topic4Text":"Oletko kyllästynyt istumaan kotona? Haluatko mennä pelaamaan golfia, mutta et toisaalta jaksakaan... jostain syystä. Ei hätää voit pelata golfia ulkona nyt myös kännykälläsi!",
+
+    "topic3Title":"Your Mind Map",
+    "topic3Text":"Ajatuskarttojen teko ohjelma",
+    "topic3List":[
+        "java",
+        "OOP",
+        "Android Studio",
+        "Aktiviteetit", 
+        "Fragmentit",
+        "Canvas",
+        "Sisäinen ja ulkoinen tallennustila",
+        "CustomView",
+        "Karttojen sommittelu algoritmeja (ne ei sommittaudu automaattisesti canvaksella)",
+        "Xml",
+        "Bitmap",
+        "RecyclerView",
+        "ListView",
+        "Adapterit",
+        "Animaatiot",
+        "ViewPager2",
+        "ConstraintLayout ConstraintSet",
+        "Touch eventit"
+    ],
+    
+
+    "topic4Title":"GPS Golf",
+    "topic4Text":"AR Golf peli jota pelataan käyttämällä kännykän GPS navigointia",
+    "topic4List":[
+        "Visual Studio (Forms, Buttons)",
+        "C# (linq)",
+        "Data struktuureja (900 miljoonan koordinaatin yhdistys ja järjestely)",
+        "Unity (Mesh renderöinti laskien kolmioiden koordinaatteja 3d ympäristössä maapallon säteen mukaan)",
+        "Google Cloud, CLI isojen tiedostojen käsittelyyn",
+        "Async metodit",
+        "lupien hallinta",
+        "GPS metodit koordinaattien hallinta ja oikeiden karttatietojen saaminen Google Cloudista olinpaikan mukaan"
+    ],
+    
+    "topic5Title":"C S A M M A",
+    "topic5Text":"CSAMMA (cosine search automatic mindmap application) on Full stack sovellus joka luo ajatuskartan automaattisesti sille syötetystä sivustosta käyttäen web scraperia ja hakukenttään laitettuja sanoja. Esim. jos hakukenttään kirjoittaa sanan 'fish' niin sovellus luo web sivustosta ajatusartan web sivustoon liittvyvistä verkkotunnuksista jotka liittyvät sanaan 'fish'. ",
+    "topic5List":[
+        "Spring Boot (kontrollerit, JpaRepository, Hibernate, NativeSql Batching, Entityt)",
+        "MySql",
+        "SQL",
+        "Javascript",
+        "React (useEffect, useRef, useState, Canvas, map, props)",
+        "Jsoup",
+        "Kielimallit"
+    ],
 
     "privacyPolicy":"Privacy Policy",
     "goodToKow":"Vastausaika todennäköisesti lyhyehkö",
     "language":"Suomi",
-    "learn more":"Lue lisää",
+    "learn more":"github",
     "contact":"Ota yhteyttä",
-    "email":"tagir.tsarkov@gmail.com",
+    "email":"tagir.tirkkonen@gmail.com",
     "phone":"+358401865843",
     "location":"Silfverhjelmintie 8, Mustio",
     "email-name":"SÄHKÖPOSTI",

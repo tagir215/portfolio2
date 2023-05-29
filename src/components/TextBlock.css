@@ -22,6 +22,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    margin-right: 10px;
 }
 .link:hover{
     background: var(--primary-color);
@@ -33,29 +34,39 @@
     max-width: 45%;
 }
 .main-title{
-    text-align: center;
-    margin-left: auto;
+    text-align: left;
+    margin-left: 5%;
     margin-right: auto;
-    max-width: 70%;
+    max-width: 90%;
     margin-top: 150px;
 }
 .main-title-title{
-    font-size:70px;
-    color:var(--primary-color);
+    font-size:120px;
+    padding:0;
+    margin-bottom:20px;
 }
 .main-title-text{
-    font-size:30px;
+    font-size:20px;
+    max-width: 55%;
+    display: block;
 }
 .about-me{
     margin-left: auto;
     margin-right: auto;
     color:var(--secondary-color);
+    position: absolute;
     max-width: 60%;
-    margin-top: 600px;
+    top: 760px;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
 }.about-me-title{
-    font-size: 50px;
+    font-size: 40px;
     color:var(--secondary-color);
+}
+.topic-list{
+    color:grey;
+    font-style: italic;
 }
 
 @media all and (max-width:700px){
@@ -63,4 +74,10 @@
         max-width: 100%;
         padding-bottom:50px;
     }   
+    .main-title-title{
+        font-size:10vw;
+    }
+    .main-title-text{
+        font-size:2vw;
+    }
 }

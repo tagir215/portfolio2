@@ -35,6 +35,7 @@ a:hover{
 .toolbar-title{
     font-size:25px;
     font-weight: 600;
+    opacity: 0;
 }
 .toolbar-img{
     margin-left:20px;

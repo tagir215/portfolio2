@@ -12,6 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    filter:grayscale(100%);
 }
 
 .skills-container{
@@ -32,12 +33,12 @@
     display: flex;
     width:90%;
     margin-left:auto;
-    margin-top: 80px;
+    margin-top: 600px;
     background:var(--secondary-color);
     border-radius: 15px;
     margin-right:auto;
     border: 1px solid rgb(221, 221, 221);
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 .skills-title{
     font-size: 30px;

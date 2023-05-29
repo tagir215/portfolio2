@@ -8,7 +8,7 @@ body{
   --primary-color:rgb(7, 59, 82);
   --secondary-color:white;
   --darker-color:rgb(2, 22, 26);
-  --extra-color:#646cce;
+  --extra-color:#3ab1e8;
 }
 
 
@@ -33,10 +33,10 @@ html{
 .masking-background{
   position:absolute;
   left:0;
-  top:900px;
+  top:750px;
   width:100%;
-  z-index: -1;
-  height:600px;
+  z-index: -10;
+  height:500px;
   background: var(--primary-color);
 }
 .background-end{
@@ -48,6 +48,7 @@ html{
   background: black;
   z-index:-200;
 }
+
 .is-white{
   top:1400px;
   z-index: -1;
@@ -116,7 +117,25 @@ html{
 .active{
   display: block;
 }
-
+.leaves{
+  width:100vw;
+  height:auto;
+  position:absolute;
+  left:0;
+  top:-100px;
+  z-index: -100;
+}
+.app-image{
+  width: 90%;
+  height: auto;
+  border: 1px solid grey;
+}
+.images-container{
+  max-width: 60%;
+}
+.app-pos1{
+  transform: translate(40px,-40px);
+}
 
 @media all and (max-width:900px){
   .content{
