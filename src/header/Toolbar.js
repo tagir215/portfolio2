@@ -18,7 +18,7 @@ export default function(){
                 </div>
 
                 <div className="toolbar-right">
-                    <a className="toolbar-tab"  href='mailto:tagir.tsarkov@gmail.com'>{fi.contact}</a>
+                    <a className="toolbar-tab"  href='mailto:tagir.tirkkonen@gmail.com'>{fi.contact}</a>
                 </div>
                 
             </div>
