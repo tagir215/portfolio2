@@ -29,7 +29,6 @@ function App() {
 
       <div class="page animation1 ">
          
-
             <div className="content">
               <div className="phone-image-container ">
                 <PhoneImage width={phoneWidth} height={phoneHeight} video={iFolder + '/topic2/rhythm0000.mp4'} position="position1"/>
@@ -72,7 +71,6 @@ function App() {
               <TextBlock theme="topic" title={fi.topic4Title} text={fi.topic4Text} list={fi.topic4List} link={"https://github.com/tagir215/GPSGolf"}/>
             </div>
 
-            <Videos/>
 
             <Bottombar /> 
         </div>
