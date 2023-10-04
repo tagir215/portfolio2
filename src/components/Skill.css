@@ -114,7 +114,7 @@
 .skill-title{
     font-size: 13px;
     align-self: center;
-    color:var(--secondary-color);
+    color:var(--primary-color);
     font-weight: 500;
     margin-left: 15px;
     margin-right: 15px;
@@ -122,4 +122,9 @@
 .skill-line{
     display:block;
     white-space: nowrap;
+}
+.stars-img{
+    width: 100px;
+    margin-top: 5px;
+    height: auto;
 }

@@ -3,7 +3,7 @@ import './TextBlock.css';
 import en from '.././locales/en.json'
 import fi from '.././locales/fi.json'
 
-export default function({title,text,list, link,link2, theme}){
+export default function({title,text,list, link,link2,link3,theme}){
     
     return(
         <div className={"topic-content "+theme}>
@@ -18,8 +18,10 @@ export default function({title,text,list, link,link2, theme}){
                 })}
                 </ul>}
             <br/>
-            {link && <a className="link" target="_blank" href={link}>{fi["learn more"]}</a>}
-            {link2 && <a className="link" target="_blank" href={link2}>{fi["learn more"]}</a>}
+            {link && <a className="link" target="_blank" href={link}>{"github"}</a>}
+            {link2 && <a className="link" target="_blank" href={link2}>{"github (client)"}</a>}
+            {link3 && <a className="link" target="_blank" href={link3}>{"demo"}</a>}
+            {link3 && <span className="link-explain">saattaa käynnistyä hitaasti koska heroku</span>}
         </div>
     )
 }

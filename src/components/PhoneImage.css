@@ -12,10 +12,9 @@
     transform: translateY(-10%);
 }
 .phone-container{
-    height:500px;
+    height:100%;
     width: 300px;
     position:relative;
-    
 }
 .phone-background{
     position:absolute;

@@ -2,7 +2,7 @@ import React from "react";
 import './Skill.css'
 import { useState, useRef } from 'react'
 
-export default function({img, title, list}){
+export default function({img, title, list, stars}){
     const [position, setPosition] = useState(0);
     const containerRef = useRef(null)
     const infoRef = useRef(null)
@@ -37,6 +37,8 @@ export default function({img, title, list}){
             <div className="skill-image-container">
                 <img className="skill-image" src={img} alt=""/>
             </div>
+
+            {stars && <img src={stars} alt="" className="stars-img"/>}
 
             {list && <div className="more-info">
                 {list.map((text,index) => (
