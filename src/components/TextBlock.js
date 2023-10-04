@@ -21,7 +21,7 @@ export default function({title,text,list, link,link2,link3,theme}){
             {link && <a className="link" target="_blank" href={link}>{"github"}</a>}
             {link2 && <a className="link" target="_blank" href={link2}>{"github (client)"}</a>}
             {link3 && <a className="link" target="_blank" href={link3}>{"demo"}</a>}
-            {link3 && <span className="link-explain">saattaa käynnistyä hitaasti koska heroku</span>}
+            {link3 && <div className="link-explain-div"><p className="link-explain">saattaa käynnistyä hitaasti koska heroku</p></div>}
         </div>
     )
 }

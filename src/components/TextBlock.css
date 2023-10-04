@@ -71,6 +71,9 @@
     font-style: italic;
     color: gray;
 }
+.link-explain-div{
+    display: inline-block;
+}
 
 @media all and (max-width:700px){
     .topic-content{
