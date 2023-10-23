@@ -31,7 +31,7 @@ function Page({lang}) {
         </div>
         }
         <div className={`wrapper ${backgroundImageLoaded ? "visible" : ""}`}>
-        <ToolBar />
+        <ToolBar lang={lang}/>
     <img className='rocks' src={iFolder+'/cliff0.png'} alt=""/>
       <img className='background-image' src={iFolder+'/cliff1.jpg'} alt=""/>
       <div class="page active">

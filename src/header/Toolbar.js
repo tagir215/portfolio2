@@ -1,9 +1,8 @@
 import en from '.././locales/en.json';
-import fi from '.././locales/fi.json'
 import './Toolbar.css';
 
 
-export default function(){
+export default function ToolBar({lang}){
 
     
     return(
@@ -14,11 +13,11 @@ export default function(){
 
 
                 <div className="toolbar-right">
-                    <span className="toolbar-title">{fi.title}</span>
+                    <span className="toolbar-title">{lang.title}</span>
                 </div>
 
                 <div className="toolbar-right">
-                    <a className="toolbar-tab"  href='mailto:tagir.tirkkonen@gmail.com'>{fi.contact}</a>
+                    <a className="toolbar-tab"  href='mailto:tagir.tirkkonen@gmail.com'>{lang.contact}</a>
                 </div>
                 
             </div>
