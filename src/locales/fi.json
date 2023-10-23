@@ -126,5 +126,6 @@
     "email-name":"SÄHKÖPOSTI",
     "location-name":"SIJAINTI",
     "phone-name":"PUHELIN",
-    "skills":"Taidot"
+    "skills":"Taidot",
+    "link-explain":"saattaa käynnistyä hitaasti koska heroku"
 }

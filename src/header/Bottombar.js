@@ -1,9 +1,7 @@
 import React from "react";
-import en from '.././locales/en.json'
-import fi from '.././locales/fi.json'
 import './Bottombar.css'
 
-export default function(){
+export default function Bottombar({lang}){
     return(
         <div className="bottom-bar">
 
@@ -11,18 +9,18 @@ export default function(){
                 
                 <div className="bottom-right">
                     <div className="bottom-contact">
-                        <h4 className="bottom-title">{fi["email-name"]}</h4>
-                        <span className="contact-title">{fi.email}</span>
+                        <h4 className="bottom-title">{lang["email-name"]}</h4>
+                        <span className="contact-title">{lang.email}</span>
                     </div>
                     
                     <div className="bottom-contact">
-                        <h4 className="bottom-title">{fi["phone-name"]}</h4>
-                        <span className="contact-title">{fi.phone}</span>
+                        <h4 className="bottom-title">{lang["phone-name"]}</h4>
+                        <span className="contact-title">{lang.phone}</span>
                     </div>
                     
                     <div className="bottom-contact">
-                        <h4 className="bottom-title">{fi["location-name"]}</h4>
-                        <span className="contact-title">{fi.location}</span>
+                        <h4 className="bottom-title">{lang["location-name"]}</h4>
+                        <span className="contact-title">{lang.location}</span>
                     </div>
                 
                 </div>
