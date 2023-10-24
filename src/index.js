@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import fi from './locales/fi.json'
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-      <RouterProvider router={router}/>
+      <App lang={fi}></App>
   </React.StrictMode>
 );
 
