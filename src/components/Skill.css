@@ -114,7 +114,7 @@
 .skill-title{
     font-size: 13px;
     align-self: center;
-    color:var(black);
+    color:var(--primary-color);
     font-weight: 500;
     margin-left: 15px;
     margin-right: 15px;
