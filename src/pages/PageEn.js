@@ -1,9 +1,9 @@
 import React from "react";
-import Page from "../Page";
+import App from "../App";
 import en from "../locales/en.json";
 
 export default function PageEn(){
     return (
-        <Page lang={en}></Page>
+        <App lang={en}></App>
     )
 }

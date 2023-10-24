@@ -1,9 +1,9 @@
 import React from "react";
-import Page from "../Page";
+import App from "../App";
 import fi from "../locales/fi.json"
 
 export default function PageFi(){
     return (
-        <Page lang={fi}></Page>
+        <App lang={fi}></App>
     )
 }
