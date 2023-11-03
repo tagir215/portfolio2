@@ -33,7 +33,7 @@ html{
 .masking-background{
   position:absolute;
   left:0;
-  top:750px;
+  top:630px;
   width:100%;
   z-index: -10;
   height:500px;
@@ -87,7 +87,7 @@ html{
 }
 .background-image{
   position:absolute;
-  width: 3800px;
+  width: 3000px;
   background:grey;
   height: auto;
   z-index: -12;
@@ -95,10 +95,10 @@ html{
   transform: translate3d(-50%,-900px,-10px);
 }
 .rocks{
-  width: 2500px;
+  width: 1999px;
   position:absolute;
   left: 50%;
-  transform: translate(-50%,550px);
+  transform: translate(-50%,330px);
   height: auto;
   z-index: -10;
 }
@@ -136,6 +136,7 @@ html{
 }
 .images-container{
   max-width: 60%;
+  transform: translateY(100px);
 }
 .app-pos1{
   transform: translate(40px,-40px);
@@ -147,6 +148,11 @@ html{
   }
   .main-tab{
     display: none;
+  }
+  .images-container{
+    transform: translateY(0px);
+    max-width: 90%;
+    margin: 0 auto;
   }
 }
 

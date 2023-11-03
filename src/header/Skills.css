@@ -33,7 +33,7 @@
     display: flex;
     width:90%;
     margin-left:auto;
-    margin-top: 600px;
+    margin-top: 550px;
     background:var(--secondary-color);
     border-radius: 15px;
     margin-right:auto;
@@ -50,6 +50,7 @@
 @media all and (max-width:700px){
     .skills-div{
         flex-wrap: wrap;
+        margin-top: 750px;
     }
     .skills{
         width:100%;

@@ -35,7 +35,7 @@
 }
 .main-title{
     max-width: 90%;
-    margin-top: 150px;
+    margin-top: -50px;
     margin-left: 5vw;
 }
 .main-title-title{
@@ -54,7 +54,7 @@
     color:var(--secondary-color);
     position: absolute;
     max-width: 60%;
-    top: 760px;
+    top: 630px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -82,6 +82,7 @@
     }   
     .main-title-title{
         font-size:10vw;
+        margin-top: 90px;
     }
     .main-title-text{
         font-size:2vw;
