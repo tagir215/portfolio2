@@ -13,7 +13,7 @@ function Page({lang}) {
 
   useEffect(() => {
     const backgroundImage = new Image();
-    backgroundImage.src = iFolder + '/cliff1L.png';
+    backgroundImage.src = iFolder + '/cliff0L.png';
 
     backgroundImage.onload = () => {
       setBackgroundImageLoaded(true);
@@ -30,7 +30,7 @@ function Page({lang}) {
         <div className={`wrapper ${backgroundImageLoaded ? "visible" : ""}`}>
         <ToolBar lang={lang}/>
     <img className='rocks' src={iFolder+'/cliff0L.png'} alt=""/>
-      <img className='background-image' src={iFolder+'/cliff1L.png'} alt=""/>
+      <img className='background-image' src={iFolder+'/cliff1L.jpg'} alt=""/>
       <div class="page active">
           <TextBlock lang={lang} title={lang.aboutTitle} text={lang.aboutText} theme="main-title"/>
           <Skills className="skills"/>  
