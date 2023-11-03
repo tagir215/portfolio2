@@ -13,7 +13,7 @@ function Page({lang}) {
 
   useEffect(() => {
     const backgroundImage = new Image();
-    backgroundImage.src = iFolder + '/cliff0L.png';
+    backgroundImage.src = iFolder + '/cliff1L.png';
 
     backgroundImage.onload = () => {
       setBackgroundImageLoaded(true);
