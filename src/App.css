@@ -17,23 +17,22 @@ h1, h2, h3, h4, h5{
 }
 html{
   overflow-x: hidden;
-  overflow-y: hidden;
- 
 }
 .content{
     width:90%;
     margin-left:auto;
+    min-height:600px;
     margin-right:auto;
     display:flex;
     justify-content:space-between;
     margin-top:50px;
-    margin-bottom:200px;
+    margin-bottom:300px;
     
 }
 .masking-background{
   position:absolute;
   left:0;
-  top:630px;
+  top:730px;
   width:100%;
   z-index: -10;
   height:500px;
@@ -136,7 +135,7 @@ html{
 }
 .images-container{
   max-width: 60%;
-  transform: translateY(100px);
+  transform: translateY(70px);
 }
 .app-pos1{
   transform: translate(40px,-40px);

@@ -22,6 +22,7 @@ function Page({lang}) {
 
   return (
     <>
+	  {/*
       {!backgroundImageLoaded && 
         <div className="loading-screen">
             <div className="spinner"></div>
@@ -33,11 +34,12 @@ function Page({lang}) {
       <img className='background-image' src={iFolder+'/cliff1L.jpg'} alt=""/>
       <div class="page active">
           <TextBlock lang={lang} title={lang.aboutTitle} text={lang.aboutText} theme="main-title"/>
-          <Skills className="skills"/>  
       </div>
       <div className='masking-background'></div> 
       <TextBlock lang={lang} title={lang.actualAboutTitle} text={lang.actualAboutText} theme="about-me"/>
       <div className='masking-background is-white'></div>
+
+      */}
 
       <div class="page animation1 ">
 
@@ -60,7 +62,6 @@ function Page({lang}) {
             </div>
 
 
-
             <div className="content">
               <div className="images-container">
                   <img className="app-image" src={iFolder+"/topic5/csamma1.png"} alt=''></img>
@@ -68,6 +69,8 @@ function Page({lang}) {
               </div>
               <TextBlock lang={lang} theme="topic" title={lang.topic5Title} text={lang.topic5Text} list={lang.topic5List} link2={"https://github.com/tagir215/CosineSearchAutomaticMindMapApplicationClient"} link={"https://github.com/tagir215/CosineSearchAutomaticMindMapApplicationServer"}/>
             </div>
+
+
 
             <div className="content">
               <div className="phone-image-container ">
@@ -99,7 +102,9 @@ function Page({lang}) {
 
             <Bottombar lang={lang}/> 
         </div>
+	  {/*
     </div>
+    */}
     </> 
   )
 }

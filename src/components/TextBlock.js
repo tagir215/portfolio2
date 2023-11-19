@@ -11,11 +11,11 @@ export default function({title,text,list, link,link2,link3,theme,lang}){
             <span className={theme+"-text"} >{text}</span>
             {list !=null && <h4>{lang.topicPlus}</h4>}
             {list != null &&  
-                <ul className="topic-list">
+                <div className="topic-list">
                 {list.map((string,index)=>{
-                    return <li key={index}>{string}</li>
+                    return <span key={index}>{string}</span>
                 })}
-                </ul>}
+                </div>}
             <br/>
             {link && <a className="link" target="_blank" href={link}>{"github"}</a>}
             {link2 && <a className="link" target="_blank" href={link2}>{"github (client)"}</a>}

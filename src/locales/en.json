@@ -17,7 +17,7 @@
     "skills2": "Frameworks",
     "skills3": "Databases",
 
-    "topicPlus": "Some things I've learned:",
+    "topicPlus": "technologies:",
 
     "topic1Title": "Star Chat",
     "topic1Text": "A chat application where all text is written in a Star Wars-inspired style",
@@ -26,11 +26,10 @@
         "REST",
         "Notifications",
         "Content Resolver",
-        "OpenGL (text rendering / textures / buffers / shaders / text layout algorithms, font data handling, matrix calculations, GLSL, shader compilation)",
+        "OpenGL",
         "MotionEvent",
-        "Firebase (real-time database / Firestore / Firebase messaging)",
+        "Firebase",
         "Permission management",
-        "Best practices",
         "Mockito",
         "Espresso"
     ],
@@ -43,9 +42,9 @@
         "Timer",
         "Multithreading",
         "AudioTrack",
-        "OpenGL (GL SurfaceView, Renderer, line drawing)",
+        "OpenGL",
         "Audio buffers",
-        "Fast Fourier Transform, autocorrelation, and other pitch detection algorithms"
+        "FFT"
     ],
 
     "topic3Title": "Your Mind Map",
@@ -57,7 +56,8 @@
         "Activities",
         "Fragments",
         "Canvas",
-        "Internal and external storage",
+        "Internal storage",
+	"External storage",
         "CustomView",
         "Map layout algorithms",
         "XML",
@@ -67,47 +67,45 @@
         "Adapters",
         "Animations",
         "ViewPager2",
-        "ConstraintLayout, ConstraintSet",
         "Touch events"
     ],
 
     "topic4Title": "GPS Golf (first coding project)",
     "topic4Text": "An AR golf game played using mobile GPS navigation",
     "topic4List": [
-        "Visual Studio (Forms, Buttons)",
-        "C# (LINQ)",
-        "Data structures (combining and arranging 900 million coordinates)",
-        "Unity (Mesh rendering based on coordinates in a 3D environment according to the Earth's radius)",
-        "Google Cloud, CLI for handling large files",
-        "Async methods",
-        "Permission management",
-        "GPS methods for coordinate management and obtaining the correct map data from Google Cloud based on location"
+        "Visual Studio",
+        "C#",
+        "Data structures",
+        "Unity",
+        "Google Cloud",
+        "Async",
+        "Permissions",
+        "GPS"
     ],
 
     "topic5Title": "CSAMMA",
     "topic5Text": "CSAMMA (Cosine Search Automatic Mind Map Application) is a full-stack application that automatically creates a mind map from a given website using web scraping and search terms. For example, if you enter the word 'fish' in the search field, the application generates a mind map of website domains related to the word 'fish'.",
     "topic5List": [
-        "Spring Boot (JpaRepository, Hibernate, Native SQL Batching, Entities)",
-        "Application architecture",
+        "Spring Boot",
         "MySQL",
         "SQL",
         "Javascript",
-        "React (useEffect, useRef, useState, Canvas, map, props)",
+        "React",
         "Jsoup",
         "Language models"
     ],
 
     "topic6Title": "AfricanRockPython",
-    "topic6Text": "AfricanRockPython is a full-stack webshop application for computer components. It can generate assembly recommendations for computer parts based on user choices. The project was originally intended to practice design patterns, and about 12 of them have been used in the project. The application selects compatible components using compatibility data and user preferences regarding price range and computer usage.",
+    "topic6Text": "AfricanRockPython is a backend webshop application for computer components. It can generate assembly recommendations for computer parts based on user choices. The project was originally intended to practice design patterns, and about 12 of them have been used in the project. The application selects compatible components using compatibility data and user preferences regarding price range and computer usage.",
     "topic6List": [
         "Spring Boot",
-        "Hibernate (ManyToMany, ManyToOne, strange proxy issues, strange transaction session issues, InheritanceTypes, CascadeTypes, Batching)",
+        "Hibernate",
         "JDBC",
-        "Cookies (session token)",
-        "Spring Security (to some extent)",
-        "Design patterns (FactoryMethod, AbstractFactory, Builder, Facade, Proxy, Decorator, Strategy, Observer, Singleton, Composite, Prototype, State)",
-        "React (Redux, pages, Axios)",
-        "Web Scraping (Selenium)",
+        "Cookies",
+        "Spring Security",
+        "Design patterns",
+        "React",
+        "Selenium",
         "Jackson",
         "MySQL"
     ],
@@ -119,10 +117,10 @@
     "contact": "Contact",
     "email": "tagir.tirkkonen@gmail.com",
     "phone": "+358401865843",
-    "location": "Silfverhjelmintie 8, Mustio",
+    "location": "Kajaani, Finland",
     "email-name": "EMAIL",
     "location-name": "LOCATION",
     "phone-name": "PHONE",
     "skills": "Skills",
-    "link-explain":"may open slowly because of heroku"
+    "link-explain":"may open slowly due to heroku App sleeping on cheap dynos"
 }
