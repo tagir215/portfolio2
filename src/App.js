@@ -57,7 +57,7 @@ function Page({lang}) {
                 <PhoneImage video={iFolder + '/topic1/starchat0000.mp4'} position="position1"/>
                 <PhoneImage path={iFolder + '/topic1/starchat1.jpg'} position="position2"/>
               </div>
-              <TextBlock lang={lang} theme="topic" title={lang.topic1Title} text={lang.topic1Text} list={lang.topic1List} link={"https://github.com/tagir215/Star-Chat"}/>
+              <TextBlock lang={lang} theme="topic" title={lang.topic1Title} text={lang.topic1Text} list={lang.topic1List} link={"https://github.com/tagir215/star-chat"}/>
               
             </div>
 
@@ -67,7 +67,7 @@ function Page({lang}) {
                   <img className="app-image" src={iFolder+"/topic5/csamma1.png"} alt=''></img>
                   <img className="app-image app-pos1" src={iFolder+"/topic5/csamma2.png"} alt=''></img>
               </div>
-              <TextBlock lang={lang} theme="topic" title={lang.topic5Title} text={lang.topic5Text} list={lang.topic5List} link2={"https://github.com/tagir215/CosineSearchAutomaticMindMapApplicationClient"} link={"https://github.com/tagir215/CosineSearchAutomaticMindMapApplicationServer"}/>
+              <TextBlock lang={lang} theme="topic" title={lang.topic5Title} text={lang.topic5Text} list={lang.topic5List} link2={"https://github.com/tagir215/csamma-client"} link={"https://github.com/tagir215/csamma-server"}/>
             </div>
 
 
@@ -77,7 +77,7 @@ function Page({lang}) {
                 <PhoneImage video={iFolder + '/topic2/rhythm0000.mp4'} position="position1"/>
                 <PhoneImage path={iFolder + '/topic2/picmetr5.jpg'} position="position2"/>
               </div>
-              <TextBlock lang={lang} theme="topic" title={lang.topic2Title} text={lang.topic2Text} list={lang.topic2List} link={"https://github.com/tagir215/VisualMetronome"}/>
+              <TextBlock lang={lang} theme="topic" title={lang.topic2Title} text={lang.topic2Text} list={lang.topic2List} link={"https://github.com/tagir215/visual-metronome"}/>
             </div>  
  
             <div className="content">
@@ -85,7 +85,7 @@ function Page({lang}) {
                 <PhoneImage path={iFolder + '/topic3/mindmap1.jpg'} position="position1"/>
                 <PhoneImage video={iFolder + '/topic3/mindmap0000.mp4'} position="position2"/>
               </div>
-              <TextBlock lang={lang} theme="topic" title={lang.topic3Title} text={lang.topic3Text} list={lang.topic3List} link={"https://github.com/tagir215/YourMindMap"}/>
+              <TextBlock lang={lang} theme="topic" title={lang.topic3Title} text={lang.topic3Text} list={lang.topic3List} link={"https://github.com/tagir215/your-mind-map"}/>
               
             </div>
 
@@ -96,7 +96,7 @@ function Page({lang}) {
                 <PhoneImage path={iFolder + '/topic4/newgolf2.png'} position="position1"/>
                 <PhoneImage video={iFolder + '/topic4/golf0000.mp4'} position="position2"/>
               </div>
-              <TextBlock lang={lang} theme="topic" title={lang.topic4Title} text={lang.topic4Text} list={lang.topic4List} link={"https://github.com/tagir215/GPSGolf"}/>
+              <TextBlock lang={lang} theme="topic" title={lang.topic4Title} text={lang.topic4Text} list={lang.topic4List} link={"https://github.com/tagir215/gps-golf"}/>
             </div>
 
 
